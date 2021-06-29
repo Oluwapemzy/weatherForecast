@@ -1,0 +1,33 @@
+body {
+    /* background: rgba(137, 43, 226, 0.205); */
+    background-color: white;
+    text-align: center;
+}
+form {
+    margin: auto;
+    background-color: cornsilk;
+    width: 250px;
+    padding: 3%;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 40px;
+}
+input{
+    height: 40px;
+    width: 70%;
+    border-radius: 20px;
+    outline: none;
+    border: 0px;
+    margin: 4%;
+    font-size: 130%;
+}
+button{
+    background: black;
+    border: none;
+    height: 50px;
+    width: 240px;
+    border-radius: 30px;
+    color: white;
+}
+button:focus{
+    outline: none;
+}
